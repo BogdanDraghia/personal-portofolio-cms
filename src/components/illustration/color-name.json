@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_illustration_color_names",
+  "info": {
+    "displayName": "color-name"
+  },
+  "options": {},
+  "attributes": {
+    "color1": {
+      "type": "string"
+    },
+    "color2": {
+      "type": "string"
+    },
+    "color3": {
+      "type": "string"
+    },
+    "color4": {
+      "type": "string"
+    }
+  }
+}

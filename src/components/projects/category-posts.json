@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_projects_category_posts",
+  "info": {
+    "displayName": "Category Posts"
+  },
+  "options": {},
+  "attributes": {
+    "testing": {
+      "type": "enumeration",
+      "enum": [
+        "docker",
+        "testing",
+        "bogdan"
+      ]
+    }
+  }
+}

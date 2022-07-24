@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_illustration_testts",
+  "info": {
+    "displayName": "testt"
+  },
+  "options": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_projects_project_categories",
+  "info": {
+    "displayName": "project-category"
+  },
+  "options": {},
+  "attributes": {
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}

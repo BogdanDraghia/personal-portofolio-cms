@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_illustration_coloroors",
+  "info": {
+    "displayName": "coloroors"
+  },
+  "options": {},
+  "attributes": {
+    "colors": {
+      "type": "json"
+    }
+  }
+}
