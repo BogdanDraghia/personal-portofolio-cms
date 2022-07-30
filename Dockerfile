@@ -1,24 +1,19 @@
-FROM strapi/base:14
+FROM node:16-bullseye
 
-ENV NODE_ENV production
+ENV NODE_ENV=production
 
 WORKDIR /app
 
-COPY package.json .
+COPY package*.json ./
 
 RUN npm install
 
-COPY favicon.ico .
+COPY . .
 
-COPY public/robots.txt public/
 
-COPY extensions/ extensions/
+RUN npm run build
 
-COPY api/ api/
 
-COPY config/ config/
-
-RUN nmp run build
 
 EXPOSE 1337
 
