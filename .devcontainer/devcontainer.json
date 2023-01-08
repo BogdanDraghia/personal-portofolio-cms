@@ -15,9 +15,9 @@
 			]
 		}
 	},
-	"runArgs": [
-		"--network=portofolio-network","--name","portofolio_backend","--ip", "172.20.0.5"
-	],
+	// "runArgs": [
+	// 	"--network=portofolio-network","--name","portofolio_backend","--ip", "172.20.0.5"
+	// ],
 	"forwardPorts": [ 1337,5432],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// This can be used to network with other containers or with the host.
@@ -36,6 +36,6 @@
 			"VARIANT": "16-bullseye"
 		}
 	},
-	"remoteUser": "node"
+	"remoteUser": "root"
 	
 }
